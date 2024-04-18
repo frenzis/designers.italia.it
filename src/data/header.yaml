@@ -225,10 +225,12 @@ navbar:
                   label: Eventi
                 - url: "/community#articoli-di-approfondimento"
                   label: Articoli di approfondimento
-            - isMenu: true
-              listItems: #C #M
                 - url: "/community/media/"
                   label: Media
+            - isMenu: true
+              listItems: #C #M
+                - url: "/community/materiali-di-disseminazione/"
+                  label: Materiali di disseminazione
                 - url: "/community/piano-attivita/"
                   label: Piano attività
                 - url: "/community/contatti/"
@@ -251,6 +253,16 @@ headerPost:
         addonClasses: "me-2"
     - title: "Modello ASL"
       url: "/modelli/aziende-sanitarie-locali/"
+      blank: false
+      icon:
+        icon: "sprites.svg#it-bookmark" # it-flag, it-bookmark #I
+        size: "sm"
+        align: "middle"
+        color: "primary"
+        hidden: true
+        addonClasses: "me-2"
+    - title: "Modello Musei civici"
+      url: "/modelli/musei-civici/"
       blank: false
       icon:
         icon: "sprites.svg#it-bookmark" # it-flag, it-bookmark #I
